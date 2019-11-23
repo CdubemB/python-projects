@@ -13,7 +13,7 @@ second_func() #this will run the print statement in the function
 def third_func():
    return "hello i'm function 3"
 
-print(third_func().upper()) #you must print the function in this way to use return (you can also apply funtions to functions)
+print(third_func().upper()) #you must print the function in this way to use return (you can also apply functions to functions)
 
 def fourth_func(greeting): #THIS CONTAINS A PARAMETER THAT MUST BE RUN
    return greeting
