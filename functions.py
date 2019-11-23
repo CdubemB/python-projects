@@ -11,7 +11,7 @@ def second_func():
 second_func() #this will run the print statement in the function
 
 def third_func():
-   return "hello i'm function number 3"
+   return "hello i'm function 3"
 
 print(third_func().upper()) #you must print the function in this way to use return (you can also apply functions to functions)
 
@@ -27,6 +27,7 @@ def checker(age, height):
       if height < 150:
          print("you are to short to go on the ride")
       else:
-         print("you are permited to go on the ride")
+         print("you are permitted to go on the ride")
+         
 
 print(checker(18, 149)) #this will use the parametres given to decide what the function does
