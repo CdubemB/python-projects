@@ -11,7 +11,7 @@ def second_func():
 second_func() #this will run the print statement in the function
 
 def third_func():
-   return "hello i'm function 3"
+   return "hello i'm function number 3"
 
 print(third_func().upper()) #you must print the function in this way to use return (you can also apply functions to functions)
 
