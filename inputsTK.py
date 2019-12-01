@@ -13,6 +13,6 @@ def uClick():
    uLabel.pack() #creates a string of text
 
 uButton = Button(base, text="Enter name user NO.18", command=uClick)
-uButton.pack() #creates a button which will run a function
+uButton.pack() #creates a button which will run a function.
 
 base.mainloop()
