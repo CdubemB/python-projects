@@ -25,7 +25,7 @@ def checker(age, height):
       print("you are to young to go on the ride")
    else:
       if height < 150:
-         print("you are to short to go on the ride")
+         print("you are too short to go on the ride")
       else:
          print("you are permitted to go on the ride")
          
