@@ -1,4 +1,3 @@
-from numpy import random
-
+import random
 number = random.randit(20)
 print(number)
