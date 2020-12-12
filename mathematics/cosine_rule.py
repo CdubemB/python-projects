@@ -3,7 +3,7 @@ cosie rule calculator
 by CdubemB
 
 """
-from math import *
+from math import cos, sqrt, acos, pi
 
 
 def cosForSides(a, b, C):#gets the value of two sides and an angle
