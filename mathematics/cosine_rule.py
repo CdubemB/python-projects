@@ -22,18 +22,21 @@ def cosForAngles(a, b, c):
 calcDone = False
 
 while calcDone == False:
-    a1 = str(input("would you like to find out the size of an angle or side\n"))
-    if a1.lower() == "angle":
+    a1 = str(input("would you like to find out the size of an angle or side (type exit to exit programme)\n"))
+    if a1.lower() == "angle" or a1 == "1": #wil work out the size of an angle
         sA = int(input("side a:"))
         sB = int(input("\nside b:"))
         sC = int(input("\nside c:"))
         print(cosForAngles(sA, sB, sC))
         calcDone = True
-    elif a1.lower() == "side":
+    elif a1.lower() == "side" or a1 == "2": #will work out the size of a side
         sA = int(input("side a:"))
         sB = int(input("\nside b:"))
         aC = int(input("\nangle C:"))
         print(cosForSides(sA, sB, aC))
         calcDone = True
-    else:
+    elif a1.lower() == "exit":#will exit the programme
+        calcDone == True
+        exit()
+    else:#will loop if invalid answer chosen
         print("choose a valid input")
