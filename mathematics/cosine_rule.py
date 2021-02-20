@@ -37,6 +37,7 @@ while calcDone == False:
         calcDone = True
     elif a1.lower() == "exit":#will exit the programme
         calcDone == True
-        exit()
+        exit()      
     else:#will loop if invalid answer chosen
         print("choose a valid input")
+
