@@ -29,17 +29,17 @@ def main():#will run all the following functions
 
 def text_gather():#will get the text input with the variables from the user
     uLabel = Label(base, text="enter your paragraph with the variables")
-    global
+    global tBar
     tBar = Entry(base, width=35, fg="black", borderwidth=5) #creates a text bar for the box
     tBar.grid(row = 2, column = 0, columnspan = 3, padx = 10, pady = 50) #puts the text bar in a specific place
     uLabel.grid(row = 1, column = 1, columnspan = 3, padx = 10, pady = 50)
     
 def translate():#will translate the given variables that the user inserts
     global text
-    text = list(e.get())
+    text = list(tBar.get())
     askCount = 0
     while askCount < 10:
-        print("what does", numWanted, "equal")
+        print("what does", str(askCount), "equal")
         answer = str(input())
         userVariables = open("variables.txt", "a+")
         userVariables.write(answer + "\n")
