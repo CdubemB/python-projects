@@ -30,4 +30,4 @@ def checker(age, height):
          print("you are permitted to go on the ride")
          
 
-print(checker(18, 149)) #this will use the parametres given to decide what the function does
+print(checker(18, 149)) #this will use the parametres given to decide what the function does.
