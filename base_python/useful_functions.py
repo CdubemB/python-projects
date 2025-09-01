@@ -36,5 +36,5 @@ if any(i > 5 for i in numbers):
     print("at least one is greater than five")#checks if any numbers are greater than five
 
 for e in enumerate(numbers):
-    print(e) # prints all the numbers in the list in their order with given iteration
+    print(e) # prints all the numbers in the list in their order with given iteration.
 
