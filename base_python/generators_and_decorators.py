@@ -27,4 +27,10 @@ def present():
 gift = decor(present) #gift is a new function that involves present that has been decorated with the addition of wrap
 gift()
 
-#decorators are used to modify functions 
+#decorators are used to modify functions and can be applied in a different way
+
+@decor #this is essentially equivalent to the line creating the gift function 
+def newpresent():
+    print('I\'m the new present')
+
+newpresent()
