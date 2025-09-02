@@ -38,3 +38,10 @@ if any(i > 5 for i in numbers):
 for e in enumerate(numbers):
     print(e) # prints all the numbers in the list in their order with given iteration.
 
+print(list(map(lambda x: x+ 5, numbers))) 
+print(list(filter(lambda x: x%3 == 0, numbers)))
+'''
+ the lambda function allows one to make a quick one line function and the map function 
+applies this function to multiple elements in a list
+The filter functoin applies a filter states by a function to a list and removes those that don't match the filter
+'''
