@@ -31,3 +31,13 @@ def checker(age, height):
          
 
 print(checker(18, 149)) #this will use the parametres given to decide what the function does.
+
+def factorial(x):
+   if x == 1:
+      return 1
+   else:
+      return x * factorial(x-1)
+   
+print(factorial(5))
+
+#the above is an example of a recursive function (a function that refers to itself)
