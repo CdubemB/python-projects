@@ -79,7 +79,7 @@ button_divide = Button(base, text="/", pady=20, padx=41, command=button_divide)
 button_equal = Button(base, text="=", pady=20, padx=91, command=button_equal)
 button_clear = Button(base, text="clear", pady=20, padx=79, command=button_clear)
 
-#this creates the buttons
+#this creates the buttons: text is used display on the button pady and padx are for the size the command is for the button_click
 
 button_1.grid(row=1, column=0)
 button_2.grid(row=1, column=1)
@@ -104,3 +104,4 @@ button_multiply.grid(row=6, column=1)
 button_divide.grid(row=6, column=2)
 #sixth row of buttons
 base.mainloop()
+#this runs the calculator
