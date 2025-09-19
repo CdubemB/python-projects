@@ -21,8 +21,12 @@ class job:
 
 class economist(job):
     def supply(self):
-        print(super().joblove(), "and I love supply and demand")
+        print(super().joblove(), "and I love supply theory")
+    def demand(self):
+        print(super().joblove(), "and I love demand theory")
 #economist is the subclass which is inhertied from the class job
 worker1 = economist("10", "high") #the parameters of job is still used despite economist being the class used to derive the object
 worker1.supply()
+worker2 = economist("5", "medium")
+worker2.demand()
 
