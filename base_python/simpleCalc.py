@@ -16,5 +16,5 @@ def uCalc(num1, num2):
 	if function == "-" or function == "subtraction":
 		print(num1 - num2)
 
-#Function carries out the equation
+#Function carries out the equation.
 uCalc(x, y)
