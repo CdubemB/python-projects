@@ -43,3 +43,9 @@ print(str2)
 pattern2 = r"^My"# matches only if "My" is at index 0
 newstr_start = re.sub(pattern2, "your", str2)
 print(newstr_start)
+
+pattern3 = r"[A-Z][a-z][a-z][0-9][0-9]" #this is a character class
+if re.search(pattern3, "Bob23"):
+    print("suitable password")
+else:
+    print("non suitable")
