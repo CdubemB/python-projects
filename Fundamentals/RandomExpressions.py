@@ -1,4 +1,4 @@
-# SIMPLE INTRODUCTION TO RANDOM EXPRESSIONS
+# SIMPLE INTRODUCTION TO RANDOM EXPRESSIONS, WITH SOME CHARACTER CLASSES
 import re #random expressions module, part of the standard library
 
 pattern = r'ipsum' #r before the string (raw strings) have no escape characters making RE use easier
@@ -49,3 +49,11 @@ if re.search(pattern3, "Bob23"):
     print("suitable password")
 else:
     print("non suitable")
+
+if re.search(r"[^A-Z]", "this is all quiet"):
+    print("quiet match")
+elif re.search(r"[^A-Z]", "THIS IS ALL LOUD"):
+    print("LOUD MATCH")
+else:
+    print("letters please do you know them")
+#^ at the beginning of the character class inverts it
