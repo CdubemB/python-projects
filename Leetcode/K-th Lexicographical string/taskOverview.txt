@@ -20,4 +20,3 @@ Output: "cab"
 Explanation: There are 12 different happy string of length 3 ["aba", "abc", "aca", "acb", "bab", "bac", "bca", "bcb", "cab", "cac", "cba", "cbc"]. You will find the 9th string = "cab"
 
 the constraints are 1 <= n <= 10, 1 <= k <= 100
-  
